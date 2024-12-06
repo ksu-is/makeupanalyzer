@@ -78,7 +78,7 @@ def analyze_compatibility(product_1, base_1, product_2, base_2):
 #Temporary example 
 analyze_compatibility("primer", "water", "foundation", "silicone")
 analyze_compatibility("primer", "water", "foundation", "water")
-
+print esme 
 
 
 

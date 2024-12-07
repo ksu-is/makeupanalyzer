@@ -149,7 +149,7 @@ def answer(call):
             if head.element is not None:
                 bot.send_message(call.message.chat.id, decorate_ingredient_display(head.element))
             head=head.next
-    bot.send_message(call.message.chat.id, "Thanks for using the bot! Send /sendphoto to analyze another product. ")\n\
+    bot.send_message(call.message.chat.id, "Thanks for using the bot! Send /sendphoto to analyze another product. \n")
 
 
 

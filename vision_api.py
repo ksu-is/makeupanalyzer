@@ -148,3 +148,5 @@ Try making a different image, if nothing changes please try again later.'.format
         detected_text_words = [el for word in detected_text_words for el in word.split('\n')]
 
         return detected_text_words
+    pip --version
+    

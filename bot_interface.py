@@ -5,8 +5,8 @@ Telegram Bot Interface.
 #Import the needed libraries
 import telebot
 from telebot import types
-from adt.vision_api import Cream
-from adt.dataset_ADT import DataframeDataset
+from vision_api import Cream
+from dataset_ADT import DataframeDataset
 
 #Enter API_KEY from file 'Keys' 
 #has no been updated with our actual API key
@@ -29,7 +29,7 @@ cream_processor = Cream()
 
 #Create storage-service ADTs for the datasets.
 pore_clogging_dataset = DataframeDataset()
-pore_clogging_dataset.read_data('datasets/Preprocessed_Pore_Clogging_Ingredients.xlsx')
+pore_clogging_dataset.read_data('Ingredients_Makeup.xlsx')
 
 #Global storage for demand
 ingredients = None

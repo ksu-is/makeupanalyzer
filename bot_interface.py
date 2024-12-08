@@ -8,10 +8,12 @@ from telebot import types
 from vision_api import Cream
 from dataset_ADT import DataframeDataset
 
-#Enter API_KEY from file 'Keys' 
+#Load environment variables from .env file
+API_KEY = '8083137281:AAGQiXiBuXorqrVt3QV7hiSW_g5UeefP0WI'
+
 #has now been updated with our actual API key
 ingredients = None
-API_KEY = '8083137281:AAGQiXiBuXorqrVt3QV7hiSW_g5UeefP0WI'
+
 
 #Create and activate bot-service instance.
 bot = telebot.TeleBot(API_KEY)

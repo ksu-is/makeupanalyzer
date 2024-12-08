@@ -9,7 +9,7 @@ from vision_api import Cream
 from dataset_ADT import DataframeDataset
 
 #Enter API_KEY from file 'Keys' 
-#has no been updated with our actual API key
+#has now been updated with our actual API key
 ingredients = None
 API_KEY = '8083137281:AAGQiXiBuXorqrVt3QV7hiSW_g5UeefP0WI'
 
